@@ -3,7 +3,6 @@
 #include<ftplib.h>
 int main()
 {
-
     if (ftpOpen("10.10.2.117")==0)
     {
         printf("%s\n","Sever Connect-----------------fail!");
